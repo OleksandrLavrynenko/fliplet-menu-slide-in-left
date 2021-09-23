@@ -2,7 +2,7 @@
 <div class="fl-viewport-header">
   {{#if canGoBack}}
     <span class="nav-left fl-menu-back" data-fl-navigate-back>
-      <i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="btn-label">Back</span>
+      <i class="fa fa-chevron-left" aria-hidden="true"></i> <span class="btn-label" data-translate="widgets.menuSlideInLeft.dataSource.actions.back">Back</span>
     </span>
   {{/if}}
   {{#if pages}}
@@ -26,8 +26,8 @@
     <div class="fl-menu-foot">
       <div class="fl-app-menu-toolbar">
         <div class="copyright">
-            Version {{appVersion}} -
-            <a href="http://fliplet.com/">Built using Fliplet</a>
+          {{ T "widgets.menuSlideInLeft.dataSource.copyright.version" }} {{appVersion}} -
+            <a href="http://fliplet.com/" data-translate="widgets.menuSlideInLeft.dataSource.copyright.action">Built using Fliplet</a>
         </div>
       </div>
     </div>
